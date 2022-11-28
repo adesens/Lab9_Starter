@@ -23,7 +23,7 @@ function consoleClear() {
 }
 
 function consoleDir() {
-    console.dir(button);
+    console.dir(document.getElementById('button7'));
 }
 
 function consoleDirxml() {
