@@ -23,11 +23,11 @@ function consoleClear() {
 }
 
 function consoleDir() {
-    console.dir(document.querySelector('button'));
+    console.dir(document.querySelector('button7'));
 }
 
 function consoleDirxml() {
-    console.dirxml(document.querySelector('button'));
+    console.dirxml(document.querySelector('button7'));
 }
 
 function consoleGroupStart() {
