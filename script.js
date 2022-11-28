@@ -23,7 +23,7 @@ function consoleClear() {
 }
 
 function consoleDir() {
-
+    console.dir(button);
 }
 
 function consoleDirxml() {
@@ -56,7 +56,16 @@ function endTimer() {
 }
 
 function consoleTrace() {
-
+    function deepest() {
+        function deeper() {
+            function deep() {
+                console.trace();
+            }
+            deep();
+        }
+        deeper();
+    }
+    deepest();
 }
 
 function triggerGlobalError() {
