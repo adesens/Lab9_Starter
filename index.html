@@ -115,7 +115,7 @@
         let operator = document.querySelector('#operator').value;
 
         if(isNaN(firstNum) || isNaN(secondNum)) {
-          throw new ValidationError('Invalid input - not a number!');
+          throw new ValidationError('Input is not a number');
         }
 
         output.innerHTML = eval(`${firstNum} ${operator} ${secondNum}`);       
