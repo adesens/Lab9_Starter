@@ -107,8 +107,8 @@
         let secondNum = document.querySelector('#second-num').value;
         let operator = document.querySelector('#operator').value;
 
-        if (isNaN(firstNum) || isNaN(secondNum)) {
-          throw new SyntaxError('Invalid input!');
+        if(isNaN(firstNum) || isNaN(secondNum)) {
+          throw new SyntaxError('Invalid input - not a number!');
         }
 
         output.innerHTML = eval(`${firstNum} ${operator} ${secondNum}`);       
